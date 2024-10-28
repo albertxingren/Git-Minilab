@@ -4,8 +4,13 @@
 using namespace std;
 
 int main () {
-  cout << "Hello World" << endl;     
 
+  int a = 1;
+  int b = 5;
+  int temp = a; 
+  a = b;
+  b = temp;
+  
   MyClass a(5);
   cout << a.getX() << endl;
 }
