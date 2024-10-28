@@ -10,7 +10,9 @@ int main () {
   int temp = a; 
   a = b;
   b = temp;
-  
+
+  cout << "What!" << endl;
+
   MyClass a(5);
   cout << a.getX() << endl;
 }
