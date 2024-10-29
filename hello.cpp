@@ -5,11 +5,14 @@ using namespace std;
 
 int main () {
 
-  int a = 1;
+  int a1;
+  a1 = 1;
   int b = 5;
-  int temp = a; 
-  a = b;
+  int temp = a1; 
+  a1 = b;
   b = temp;
+
+  cout << "Welcome" << endl;
 
   cout << "What!" << endl;
 
